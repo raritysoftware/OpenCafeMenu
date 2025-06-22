@@ -1,0 +1,77 @@
+# conf.yaml
+menu:
+  - isim: Espresso
+    fiyat: 60
+    kategori: Kahve
+    resim: ""
+  - isim: Çay
+    fiyat: 30
+    kategori: Sıcak İçecek
+    resim: ""
+  - isim: Latte
+    fiyat: 75
+    kategori: Kahve
+    resim: ""
+  - isim: Cappuccino
+    fiyat: 80
+    kategori: Kahve
+    resim: ""
+  - isim: Mocha
+    fiyat: 85
+    kategori: Kahve
+    resim: ""
+  - isim: Türk Kahvesi
+    fiyat: 50
+    kategori: Kahve
+    resim: ""
+  - isim: Filtre Kahve
+    fiyat: 65
+    kategori: Kahve
+    resim: ""
+  - isim: Sıcak Çikolata
+    fiyat: 55
+    kategori: Sıcak İçecek
+    resim: ""
+  - isim: Buzlu Latte
+    fiyat: 90
+    kategori: Soğuk İçecek
+    resim: ""
+  - isim: Limonata
+    fiyat: 45
+    kategori: Soğuk İçecek
+    resim: ""
+  - isim: Matcha Latte
+    fiyat: 95
+    kategori: Sıcak İçecek
+    resim: ""
+  - isim: Chai Tea Latte
+    fiyat: 85
+    kategori: Sıcak İçecek
+    resim: ""
+
+hakkimizda: |
+  OpenCafe, 2025 yılında "herkes için sıcak bir mola" sloganıyla kuruldu. Amacımız, misafirlerimize en taze kahveleri ve en samimi ortamı sunmak. Her yudumda huzur, her köşede gülümseme bulacağınız bir kafe deneyimi için buradayız.
+  
+  Kafemizde kullandığımız çekirdekler, dünyanın dört bir yanından özenle seçilir ve günlük olarak taze kavrulur. Baristalarımız, her fincanda kalite ve lezzet sunmak için tutkuyla çalışır. Sadece kahve değil, el yapımı tatlılar, sağlıklı atıştırmalıklar ve mevsime özel içeceklerle de menümüzü zenginleştiriyoruz.
+  
+  OpenCafe, sadece bir kafe değil, aynı zamanda bir buluşma noktasıdır. Dost sohbetleri, çalışma saatleri veya huzurlu bir mola için kapımız her zaman açık. Sıcak atmosferimiz, güler yüzlü ekibimiz ve özgün dekorasyonumuzla kendinizi evinizde hissedeceksiniz.
+  
+  Sürdürülebilirlik ve toplumsal sorumluluk da bizim için çok önemli. Geri dönüştürülebilir malzemeler kullanıyor, yerel üreticileri destekliyor ve sosyal sorumluluk projelerine katkı sağlıyoruz.
+  
+  Sizleri de bu güzel deneyimin bir parçası olmaya davet ediyoruz. Her fincanda sevgi, her masada samimiyet var!
+
+footer:
+  copyright: "© 2025 OpenCafe | Tüm hakları saklıdır."
+  adres: "Adres: Kafeler Sokak No:42, İstanbul"
+  telefon: "0212 123 45 67"
+  email: "hello@opencafe.com"
+  sosyal:
+    - ad: Instagram
+      url: https://instagram.com/opencafe
+      icon: instagram
+    - ad: Twitter
+      url: https://twitter.com/opencafe
+      icon: twitter
+    - ad: Facebook
+      url: https://facebook.com/opencafe
+      icon: facebook

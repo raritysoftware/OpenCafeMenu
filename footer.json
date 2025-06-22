@@ -1,0 +1,23 @@
+{
+  "copyright": "© 2025 OpenCafe | Tüm hakları saklıdır.",
+  "adres": "Adres: Kafeler Sokak No:42, İstanbul",
+  "telefon": "0212 123 45 67",
+  "email": "hello@opencafe.com",
+  "sosyal": [
+    {
+      "ad": "Instagram",
+      "url": "https://instagram.com/opencafe",
+      "icon": "instagram"
+    },
+    {
+      "ad": "Twitter",
+      "url": "https://twitter.com/opencafe",
+      "icon": "twitter"
+    },
+    {
+      "ad": "Facebook",
+      "url": "https://facebook.com/opencafe",
+      "icon": "facebook"
+    }
+  ]
+}
