@@ -1,9 +1,2 @@
 prod.md
 node_modules/
-menu.json
-bun.lock
-package-lock.json
-package.json
-menu-to-json.js
-menu.js
-menu-frontend.ts
