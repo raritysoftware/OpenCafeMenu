@@ -2,6 +2,8 @@
 
 Open Cafe Menu is a responsive and modern web application designed to showcase a cafe's menu dynamically. The application is built using Bun and features a lightweight Docker setup for easy deployment.
 
+![preview](https://github.com/user-attachments/assets/06d074bf-e0f9-4bcb-93d2-7628524eefc8)
+
 ## ✨ Features
 
 - 📱 Fully responsive design for all screen sizes.
