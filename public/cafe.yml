@@ -1,0 +1,80 @@
+name: "OpenCafeMenu"
+location: 
+  address: "123 Coffee Street, Downtown"
+  city: "Istanbul"
+  country: "Turkey"
+about: "A cozy place offering specialty drinks and pastries. We pride ourselves on sourcing the finest beans and ingredients to create memorable experiences for our customers."
+currency: "₺"
+hours:
+  monday: "07:00 - 22:00"
+  tuesday: "07:00 - 22:00"
+  wednesday: "07:00 - 22:00"
+  thursday: "07:00 - 22:00"
+  friday: "07:00 - 23:00"
+  saturday: "08:00 - 23:00"
+  sunday: "08:00 - 21:00"
+contact:
+  phone: "+90 212 555 0123"
+  email: "hello@opencafemenu.com"
+  instagram: "@opencafemenu"
+categories:
+  - "Coffee"
+  - "Tea"
+  - "Pastries"
+  - "Cold Drinks"
+items:
+  - name: "Espresso"
+    category: "Coffee"
+    price: 25
+  - name: "Cappuccino"
+    category: "Coffee"
+    price: 35
+  - name: "Latte"
+    category: "Coffee"
+    price: 40
+  - name: "Americano"
+    category: "Coffee"
+    price: 30
+  - name: "Turkish Coffee"
+    category: "Coffee"
+    price: 20
+  - name: "Earl Grey"
+    category: "Tea"
+    price: 22
+  - name: "Turkish Tea"
+    category: "Tea"
+    price: 15
+  - name: "Chamomile Tea"
+    category: "Tea"
+    price: 22
+  - name: "Green Tea"
+    category: "Tea"
+    price: 20
+  - name: "Croissant"
+    category: "Pastries"
+    price: 18
+  - name: "Simit"
+    category: "Pastries"
+    price: 8
+  - name: "Baklava"
+    category: "Pastries"
+    price: 25
+  - name: "Muffin"
+    category: "Pastries"
+    price: 15
+  - name: "Iced Coffee"
+    category: "Cold Drinks"
+    price: 35
+  - name: "Fresh Orange Juice"
+    category: "Cold Drinks"
+    price: 25
+  - name: "Lemonade"
+    category: "Cold Drinks"
+    price: 20
+  - name: "Iced Tea"
+    category: "Cold Drinks"
+    price: 22
+theme:
+  primaryColor: "#8B4513"
+  secondaryColor: "#F5F5DC"
+  font: "Georgia, serif"

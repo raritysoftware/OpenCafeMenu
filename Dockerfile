@@ -1,20 +1,35 @@
-# Use a lightweight Bun image as the base
-FROM oven/bun:1.0.0
+# Multi-stage build for OpenCafeMenu
+FROM oven/bun:1 AS builder
 
-# Set the working directory in the container
+# Set working directory
 WORKDIR /app
 
-# Copy package.json and bun.lockb to the working directory
-COPY package.json bun.lock /app/
+# Copy package files
+COPY package.json ./
 
-# Install dependencies using Bun
+# Install dependencies
 RUN bun install
 
-# Copy the rest of the application code to the working directory
-COPY . /app
+# Copy source code
+COPY . .
 
-# Expose the port the app runs on
-EXPOSE 3000
+# Build the application
+RUN bun run build
 
-# Command to run the application
-CMD ["bun", "run", "start"]
+# Production stage
+FROM node:18-alpine AS production
+
+# Install serve globally
+RUN npm install -g serve
+
+# Set working directory
+WORKDIR /app
+
+# Copy built assets from builder stage
+COPY --from=builder /app/dist ./dist
+
+# Expose port 5000
+EXPOSE 5000
+
+# Start serve
+CMD ["serve", "-s", "dist", "-p", "5000"]
